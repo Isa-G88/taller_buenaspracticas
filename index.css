@@ -1,70 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isabella's   
+ Corner </title>
+  <link rel="stylesheet" href="style.css"> </head>
+<body>
+  <div class="container">
+    <h1>About Me </h1>
+
+    <section class="about-me">
+      <p><strong>Hola!  Soy Isabella Gomez Pineda.</strong></p>
+      <p>Estoy en mi <strong>cuarto semestre</strong> y me encanta </p>
+      <ul>
+        <li>Bailar </li>
+        <li>Disfrutar de la naturaleza </li>
+        <li>Pasar tiempo con mi familia </li>
+        <li>Ver deportes ⚽️</li>
+        <li>Ver series </li>
+        <li>Escuchar música </li>
+      </ul>
+    </section>
+
+    <section class="series">
+      <h2>Mis series favoritas </h2>
+      <p>Me encantan estas series:</p>
+      <div class="serie">
+        <h3>The Office </h3>
+        <img src="https://www.rbsdirect.com.br/imagesrc/26217341.jpg?w=1024&h=768&a=c" alt="The Office" width="550" height="350">
+      </div>
+      <div class="serie">
+        <h3>Breaking Bad ⚗️</h3>
+        <img src="https://uvn-brightspot.s3.amazonaws.com/assets/vixes/b/breaking-bad-elenco.jpg" alt="Breaking Bad" width="600" height="300">
+      </div>
+    </section>
+  </div>
+</body>
+</html>
+Usa el código con precaución.
+
+CSS (style.css):
+
+CSS
 /* Reset default browser styles (optional, but recommended for consistency) */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Set the base font for the entire page */
-  body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    background-color: #f5f5f5; /* Light gray background */
-  }
-  
-  /* Container for the main content - adjust width as needed */
-  .container {
-    width: 700px; /* Adjust width as needed */
-    margin: 0 auto; /* Center the content horizontally */
-    padding: 20px;
-  }
-  
-  /* Style the header with a cute font and a bottom border */
-  h1 {
-    font-family: 'Dancing Script', cursive; /* Cute font */
-    font-size: 24px;
-    margin-bottom: 15px; /* Add spacing below the header */
-    border-bottom: 1px solid #ddd; /* Simple bottom border */
-  }
-  
-  /* Style the "About Me" section */
-  .about-me {
-    margin-bottom: 20px; /* Add spacing below the section */
-  }
-  
-  /* Style the information labels */
-  .about-me strong {
-    font-weight: bold;
-    color: #999; /* Light gray for labels */
-  }
-  
-  /* Remove bullets from the hobbies list */
-  .about-me p {
-    list-style: none; /* Remove bullets */
-  }
-  
-  /* Style the list items with some padding and a cute pastel color hover effect */
-  .about-me p:hover {
-    background-color: #f8f8f8; /* Light gray hover effect */
-    cursor: default; /* Remove default pointer on hover */
-  }
-  
-  /* Style the series section */
-  .series {
-    margin-top: 20px; /* Add spacing above the section */
-  }
-  
-  /* Style the series titles */
-  .series p:first-child {
-    font-weight: bold;
-    margin-bottom: 5px; /* Add spacing below the title */
-  }
-  
-  /* Style the image containers */
-  .series img {
-    display: block; /* Make images fill their containers */
-    margin-bottom: 10px; /* Add spacing below the images */
-    border-radius: 5px; /* Add a slight roundness to corners */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set the base font for the entire page */
+body {
+  font-family: 'Lato', sans-serif; /* Girly and cute font */
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f7e6f0; /* Light pink background */
+  color: #554466; /* Deep pink text */
+}
+
+/* Container for the main content */
+.container {
+  width: 700px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for a cute look */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Style the header with a cute font and pastel colors */
+h1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #f08080; /* Lighter pink for the header */
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5); /* Subtle text shadow */
+}
+
+/* Style the "About Me" section */
+.about-me {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 5px; /* Rounded corners for sections */
+  background-color: #fff0f5; /* Lighter pink background for sections */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Style the information labels */
+.about-me strong {
+  font-weight: bold;
+  color: #999; /* Lighter text color */
+}
+
+/* Style the list items with cute pastel hover effects */
+.about
