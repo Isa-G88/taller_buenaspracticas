@@ -1,0 +1,70 @@
+/* Reset default browser styles (optional, but recommended for consistency) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set the base font for the entire page */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  /* Container for the main content - adjust width as needed */
+  .container {
+    width: 700px; /* Adjust width as needed */
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px;
+  }
+  
+  /* Style the header with a cute font and a bottom border */
+  h1 {
+    font-family: 'Dancing Script', cursive; /* Cute font */
+    font-size: 24px;
+    margin-bottom: 15px; /* Add spacing below the header */
+    border-bottom: 1px solid #ddd; /* Simple bottom border */
+  }
+  
+  /* Style the "About Me" section */
+  .about-me {
+    margin-bottom: 20px; /* Add spacing below the section */
+  }
+  
+  /* Style the information labels */
+  .about-me strong {
+    font-weight: bold;
+    color: #999; /* Light gray for labels */
+  }
+  
+  /* Remove bullets from the hobbies list */
+  .about-me p {
+    list-style: none; /* Remove bullets */
+  }
+  
+  /* Style the list items with some padding and a cute pastel color hover effect */
+  .about-me p:hover {
+    background-color: #f8f8f8; /* Light gray hover effect */
+    cursor: default; /* Remove default pointer on hover */
+  }
+  
+  /* Style the series section */
+  .series {
+    margin-top: 20px; /* Add spacing above the section */
+  }
+  
+  /* Style the series titles */
+  .series p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px; /* Add spacing below the title */
+  }
+  
+  /* Style the image containers */
+  .series img {
+    display: block; /* Make images fill their containers */
+    margin-bottom: 10px; /* Add spacing below the images */
+    border-radius: 5px; /* Add a slight roundness to corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
