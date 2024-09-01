@@ -43,20 +43,20 @@ Usa el código con precaución.
 CSS (style.css):
 
 CSS
-/* Reset default browser styles (optional, but recommended for consistency) */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Set the base font for the entire page */
+
 body {
-  font-family: 'Lato', sans-serif; /* Girly and cute font */
+  font-family: 'Lato', sans-serif; 
   font-size: 16px;
   line-height: 1.5;
-  background-color: #f7e6f0; /* Light pink background */
-  color: #554466; /* Deep pink text */
+  background-color: #f7e6f0; 
+  color: #554466; 
 }
 
 /* Container for the main content */
@@ -68,29 +68,28 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
-/* Style the header with a cute font and pastel colors */
 h1 {
   font-size: 24px;
   margin-bottom: 15px;
   text-align: center;
-  color: #f08080; /* Lighter pink for the header */
-  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5); /* Subtle text shadow */
+  color: #eec7c7; 
+  text-shadow: 1px 1px 1px rgba(116, 104, 104, 0.5); 
 }
 
-/* Style the "About Me" section */
+
 .about-me {
   margin-bottom: 20px;
   padding: 15px;
-  border-radius: 5px; /* Rounded corners for sections */
-  background-color: #fff0f5; /* Lighter pink background for sections */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border-radius: 5px; 
+  background-color: #fff0f5; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
-/* Style the information labels */
+
 .about-me strong {
   font-weight: bold;
-  color: #999; /* Lighter text color */
+  color: #999; 
 }
 
-/* Style the list items with cute pastel hover effects */
+
 .about
